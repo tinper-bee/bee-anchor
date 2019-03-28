@@ -79,7 +79,9 @@ class Demo1 extends Component {
     render() {
         return ( 
             <div className="demo1">  
-                <Anchor selector="#my-awesome-nav a" >
+                <Anchor selector="#my-awesome-nav a" offset={()=>{
+                    return document.querySelector('#tinperBeeDemo .u-panel-heading').getBoundingClientRect().height
+                }}>
                     <ul id="my-awesome-nav" >
                     {
                         this.state.anthors.map(item=>{
