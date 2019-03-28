@@ -1,0 +1,26 @@
+.demo1{
+    .content{
+        p{
+            height: 500px;
+        }
+        display: inline-block
+    }
+    .u-anchor{
+        display: inline-block;
+        width: 200px;
+    }
+    #my-awesome-nav {
+        position: fixed;
+        top: 80px;
+        li{
+            line-height: 30px;
+            height: 30px;
+            a{
+                color:#424242;
+            }
+        }
+    }
+    #my-awesome-nav li.active {
+        border-right: 2px solid #E14C46
+    }
+}
