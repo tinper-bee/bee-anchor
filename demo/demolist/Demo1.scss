@@ -7,20 +7,22 @@
     }
     .u-anchor{
         display: inline-block;
-        width: 200px;
     }
     #my-awesome-nav {
         position: fixed;
-        top: 80px;
+        top: 200px;
+        right: 300px;
         li{
+            padding: 0 10px;
             line-height: 30px;
             height: 30px;
+            background: #FFF;
             a{
                 color:#424242;
             }
         }
     }
     #my-awesome-nav li.active {
-        border-right: 2px solid #E14C46
+        border-left: 2px solid #E14C46
     }
 }

@@ -7,19 +7,21 @@
     height: 500px; }
 
 .demo1 .u-anchor {
-  display: inline-block;
-  width: 200px; }
+  display: inline-block; }
 
 .demo1 #my-awesome-nav {
   position: fixed;
-  top: 80px; }
+  top: 200px;
+  right: 300px; }
   .demo1 #my-awesome-nav li {
+    padding: 0 10px;
     line-height: 30px;
-    height: 30px; }
+    height: 30px;
+    background: #FFF; }
     .demo1 #my-awesome-nav li a {
       color: #424242; }
 
 .demo1 #my-awesome-nav li.active {
-  border-right: 2px solid #E14C46; }
+  border-left: 2px solid #E14C46; }
 
 /*# sourceMappingURL=demo.css.map */
